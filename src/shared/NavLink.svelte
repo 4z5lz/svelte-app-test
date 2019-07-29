@@ -20,6 +20,6 @@
     }
 </style>
 
-<Link to="{to}" getProps="{getProps}">
+<Link to="{to}" {getProps}>
   <slot />
 </Link>
